@@ -1,35 +1,41 @@
  :root {
---carrot-orange: #f18f01ff;
---blue-munsell: #048ba8ff;
---charcoal: #2e4057ff;
---android-green: #99c24dff;
---jet: #2f2d2eff;
-/* 
-nav {
-  flex: auto;
+  --carrot-orange: #f18f01ff;
+  --blue-munsell: #048ba8ff;
+  --charcoal: #2e4057ff;
+  --android-green: #99c24dff;
+  --jet: #2f2d2eff;
+ }
 
-}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #2f2d2eff;
+ }
 
 h1{
-  height : 4vh;
-  background: var(--jet)
+  height : 12vh;
+  background: #f18f01ff;
+  text-align: center;
 }
 
 h2{
-  height: 3vh;
-  background: #c0c0c0;
+  height: 10vh;
+  background: #99c24dff;
+  text-align: center;
 }
 
 h4{
-  height: 2vh;
-  background: #a0faf9;
+  height: 8vh;
+  background: #048ba8ff;
+  text-align: center;
 
 * {
-  margin: 0;
-  padding: 0;
+  
 }
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: inherit;
@@ -59,19 +65,19 @@ html {
   }
 }
 
-body {
+/* body {
   font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.4;
   color: var(--android-green);
-}
+} */
 
 h1,
 h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  text-align: center;
+  
 }
 
 h1 {
@@ -86,6 +92,10 @@ ul {
   list-style: none;
 }
 
+p {
+  color: #ff7f50;
+}
+
 a {
   text-decoration: none;
   color: var(--main-red);
@@ -96,7 +106,7 @@ img {
   width: 100%;
 }
 
-/* nav */
+nav */
 
 .nav {
   display: flex;
