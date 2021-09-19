@@ -4,7 +4,7 @@
 --charcoal: #2e4057ff;
 --android-green: #99c24dff;
 --jet: #2f2d2eff;
-
+/* 
 nav {
   flex: auto;
 
@@ -29,7 +29,6 @@ h4{
   padding: 0;
 }
 
-/* box-sizing and font sizing */
 *,
 *::before,
 *::after {
@@ -42,28 +41,23 @@ html {
   scroll-behavior: smooth;
 }
 
-/* 1200px / 16px = 75em */
 @media (max-width: 75em) {
   html {
     font-size: 60%;
   }
 }
 
-/* 980px / 16px = 61.25em */
 @media (max-width: 61.25em) {
   html {
     font-size: 58%;
   }
 }
 
-/* 460px / 16px = 28.75em */
 @media (max-width: 28.75em) {
   html {
     font-size: 55%;
   }
 }
-
-/* Base styles */
 
 body {
   font-family: "Poppins", sans-serif;
@@ -161,7 +155,6 @@ img {
   color: var(--main-red);
 }
 
-/* Projects section */
 
 .projects-section {
   text-align: center;
@@ -181,7 +174,7 @@ img {
   }
 }
 
-/* "Automagic" image grid using no media queries */
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -254,8 +247,6 @@ img {
   transition: transform 0.3s ease-out;
 }
 
-/* Contact section */
-
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -301,8 +292,6 @@ img {
   transform: translateY(8px);
 }
 
-/* Footer */
-
 footer {
   font-weight: 300;
   display: flex;
@@ -325,7 +314,7 @@ footer i {
     flex-direction: column;
     text-align: center;
   }
-}
+} */
 
 
 /* Tablet properties */
@@ -345,4 +334,4 @@ footer i {
   }
   .snippets-card {
     width: 100%;
-  }
+  } */
