@@ -1,4 +1,4 @@
-/* .root {
+/* /* /* .root {
   --usafa-blue: #26547cff;
   --paradise-pink: #ef476fff;
   --orange-yellow-crayola: #ffd166ff;
@@ -52,13 +52,28 @@ body {
   transform: translateX(-50%);
   /* /* transform: translateY(-50%) */
   /* display: inline-block;
-  padding: 10px;
+    padding: 10px;
   border: 1px solid var(--orange-yellow-crayola);
 }
 
-nav {
-  flex: auto;
+nav { */
+  flex: auto; */
+
 }
+
+h1{
+  height : 4vh;
+  background: 
+}
+
+h2{
+  height: 3vh;
+  background: #c0c0c0;
+}
+
+h4{
+  height: 2vh;
+  background: #a0faf9;
 
 /* Tablet properties */
 @media screen and (max-width: 768px) and (min-width: 577px) {
@@ -78,21 +93,3 @@ nav {
   .snippets-card {
     width: 100%;
   }
-/* }
-
-.content {
-/* } * */
-
-h1{
-  height : 100vh;
-  background: skyblue;
-}
-
-h2{
-  height: 100vh;
-  background: #c0c0c0;
-}
-
-h3{
-  height: 100vh;
-  background: #a0faf9;
