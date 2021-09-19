@@ -24,11 +24,10 @@ body {
 .header {
   margin: 0px 50px;
   padding: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .header h1 {
-  margin-bottom: 20px;
 }
 
 .snippets-container {
