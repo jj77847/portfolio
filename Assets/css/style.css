@@ -1,4 +1,4 @@
-.root {
+/* .root {
   --usafa-blue: #26547cff;
   --paradise-pink: #ef476fff;
   --orange-yellow-crayola: #ffd166ff;
@@ -51,7 +51,7 @@ body {
   top: 10px;
   transform: translateX(-50%);
   /* /* transform: translateY(-50%) */
-  display: inline-block;
+  /* display: inline-block;
   padding: 10px;
   border: 1px solid var(--orange-yellow-crayola);
 }
@@ -78,7 +78,21 @@ nav {
   .snippets-card {
     width: 100%;
   }
-}
+/* }
 
 .content {
+/* } * */
+
+h1{
+  height : 100vh;
+  background: skyblue;
 }
+
+h2{
+  height: 100vh;
+  background: #c0c0c0;
+}
+
+h3{
+  height: 100vh;
+  background: #a0faf9;
