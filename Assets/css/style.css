@@ -56,6 +56,10 @@ body {
   border: 1px solid var(--orange-yellow-crayola);
 }
 
+nav {
+  flex: auto;
+}
+
 /* Tablet properties */
 @media screen and (max-width: 768px) and (min-width: 577px) {
   .snippets-container {
