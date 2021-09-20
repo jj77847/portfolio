@@ -49,8 +49,6 @@ img {
   z-index: 10;
 }
 
-
-
 /* button {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -91,7 +89,7 @@ img {
   .nav-list {
     margin: 0 1rem;
   }
-} */
+}
 
 /* .nav-list a {
   display: block;
@@ -141,7 +139,6 @@ img {
     font-size: 4rem;
   }
 }
-
 
 .projects-grid {
   display: grid;
@@ -283,7 +280,6 @@ footer i {
     text-align: center;
   }
 } */ */
-
 
 /* Tablet properties */
 @media screen and (max-width: 768px) and (min-width: 577px) {
