@@ -305,13 +305,21 @@ footer i {
   vertical-align: middle;
 }
 
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.profile-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
 @media (max-width: 28.75em) {
   footer {
     flex-direction: column;
     text-align: center;
   }
-}
-
-img {
-  width: 100px;
 }
