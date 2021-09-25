@@ -175,6 +175,17 @@ img {
   }
 }
 
+.project-span {
+  display: block;
+  width: max-content;
+  height: fit-content;
+  margin: 0 auto;
+  background: var(--main-gray);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  justify-content: center;
+}
+
 /* "Automagic" image grid using no media queries */
 .projects-grid {
   display: grid;
