@@ -5,7 +5,7 @@
   --main-gray: #303841;
   font-size: 18px;
   margin: 0;
-  padding: 5%;
+  padding: 0%;
 }
 
 /* Base reset */
@@ -74,6 +74,9 @@ h2 {
 
 ul {
   list-style: none;
+  justify-content: center;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 a {
@@ -84,6 +87,7 @@ a {
 img {
   display: block;
   width: 100%;
+  height: auto;
 }
 
 #aboutme-section {
@@ -102,6 +106,7 @@ img {
   background: var(--main-blue);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
+  font-weight: bold;
 }
 
 .nav-list {
@@ -144,9 +149,10 @@ img {
 
 .welcome-section > p {
   font-size: 3rem;
-  font-weight: 200;
+  font-weight: 700;
   font-style: italic;
   color: var(--main-red);
+  justify-content: center;
 }
 
 /* Projects section */
@@ -319,6 +325,11 @@ footer i {
   height: 100%;
   width: 100%;
   object-fit: contain;
+  height: 150px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 @media (max-width: 28.75em) {
