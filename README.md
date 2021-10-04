@@ -8,4 +8,4 @@ Portfolio of Jonathan Jefferies using example websites from GitHub, Codepen, Fre
 
 ### Screenshot of website
 
-<img width="1440" alt="Website Screenshot" src="./Assets/images/portfoilo-screenshot.png">
+<img width="1440" alt="Website Screenshot" src="./assets/images/portfoilo-screenshot.png">
